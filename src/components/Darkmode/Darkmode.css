@@ -1,0 +1,43 @@
+.dm-icon {
+  width: 100%;
+  min-height: 100%;
+  padding: 2px;
+  min-height: 16px;
+  border-radius: 100px;
+  position: relative;
+  background: #e2e8f0;
+  width: 24px;
+  height: 16px;
+  padding: 2px;
+  gap: 8px;
+}
+.dm-icon-div {
+  display: flex;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.in-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border-radius: 100px;
+  position: absolute;
+  background-color:  #FFFFFF;
+  /* animation: moveOver 300ms; */
+}
+.in-circle:hover{
+    animation: moveOver 300ms;
+}
+
+@keyframes moveOver {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: auto;
+        right: 0;
+    }
+}
